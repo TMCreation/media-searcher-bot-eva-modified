@@ -47,7 +47,7 @@ async def start(client, message):
             InlineKeyboardButton('💡 ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('📕 ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
-            InlineKeyboardButton('🎬 ᴄʟɪᴄᴋ ᴛᴏ sᴇᴀʀᴄʜ සිංහල උපසිරැසි', switch_inline_query_current_chat='')
+            InlineKeyboardButton('🎬 ᴄʟɪᴄᴋ ᴛᴏ sᴇᴀʀᴄʜ мσνιє σя тν ѕєяιєѕ', switch_inline_query_current_chat='')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -88,7 +88,7 @@ async def start(client, message):
             InlineKeyboardButton('💡 ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('📕 ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
-            InlineKeyboardButton('🎬 ᴄʟɪᴄᴋ ᴛᴏ sᴇᴀʀᴄʜ සිංහල උපසිරැසි', switch_inline_query_current_chat='')
+            InlineKeyboardButton('🎬 ᴄʟɪᴄᴋ ᴛᴏ sᴇᴀʀᴄʜ мσνιє σя тν ѕєяιєѕ', switch_inline_query_current_chat='')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -328,21 +328,21 @@ async def go(bot, message):
         InlineKeyboardButton("🏠 Mαιη Mєηυ ", callback_data='start'),
         InlineKeyboardButton("📚 ᴛᴜᴛᴏʀɪᴀʟ ᴠɪᴅᴇᴏ", url="https://telegra.ph/ʜᴇʟᴘ-11-16")
         ],[
-        InlineKeyboardButton("🅢🅗🅐🅡🅔 & 🅢🅤🅟🅟🅞🅡🅣", url="https://telegram.me/share/url?url=https://t.me/sub_searcher_bot"),
+        InlineKeyboardButton("🅢🅗🅐🅡🅔 & 🅢🅤🅟🅟🅞🅡🅣", url="https://telegram.me/share/url?url=https://t.me/media_searcher_bot"),
         ],[
-        InlineKeyboardButton("🎬 ᴄʟɪᴄᴋ ᴛᴏ sᴇᴀʀᴄʜ සිංහල උපසිරැසි", switch_inline_query_current_chat=''),
+        InlineKeyboardButton("🎬 ᴄʟɪᴄᴋ ᴛᴏ sᴇᴀʀᴄʜ мσνιє σя тν ѕєяιєѕ", switch_inline_query_current_chat=''),
     ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await message.reply("📌 ѕтєρѕ\n\n1. ᴛᴀᴘ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ɴᴀᴍᴇᴅ <b>' 🎬 ᴄʟɪᴄᴋ ᴛᴏ sᴇᴀʀᴄʜ සිංහල උපසිරැසි '</b>\n2. ᴛʜᴇɴ ᴛʏᴘᴇ ғɪʟᴍ ᴏʀ ᴛᴠ sᴇʀɪᴇs ɴᴀᴍᴇ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛᴇᴅ ᴛᴏ sᴇᴀʀᴄʜ \n3. sᴇʟᴇᴄᴛ ʏᴏᴜʀ ᴍᴇᴅɪᴀ ғɪʟᴇ (ᴀᴍᴏɴɢ ᴠᴀʀɪᴏᴜs ғᴏʀᴍᴀᴛs) & ᴅᴏᴡɴʟɪᴀᴅ ɪᴛ\n\n 😜<b>ɪғ ʏᴏᴜ ᴅᴏɴ'ᴛ ᴋɴᴏᴡ ᴛʜᴀᴛ sʏsᴛᴇᴍ ,ᴊᴜsᴛ ᴛʏᴘᴇ ᴛʜᴇ ɴᴀᴍᴇ ᴏғ ᴛʜᴇ ᴍᴏᴠɪᴇ<b> \n\n❔ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴀ ʜᴇʟᴘ , ᴛᴀᴘ' 📕 ᴛᴜᴛᴏʀɪᴀʟ ᴠɪᴅᴇᴏ ' ʙᴜᴛᴛᴏɴ ᴛᴏ ʀᴇsᴏʟᴠᴇ ʏᴏᴜ ɪssᴜᴇ\n\n🔅 𝐈𝐟 𝐭𝐡𝐞𝐫𝐞 𝐰𝐚𝐬𝐧'𝐭 𝐲𝐨𝐮𝐫 𝐟𝐢𝐥𝐦 𝐨𝐫 𝐓𝐕 𝐬𝐞𝐫𝐢𝐞𝐬 𝐉𝐮𝐬𝐭 𝐭𝐲𝐩𝐞 𝐚𝐬 𝐚 𝐧𝐨𝐫𝐦𝐚𝐥 𝐜𝐡𝐚𝐭 𝐰𝐞 𝐰𝐢𝐥𝐥 𝐮𝐩𝐥𝐨𝐚𝐝 𝐢𝐭 𝐚𝐬 𝐬𝐨𝐨𝐧 𝐚𝐬 𝐩𝐨𝐬𝐬𝐢𝐛𝐥𝐞\n\n<a href='https://t.me/sub_searcher_bot'>🤖</a> | © ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ @cinehub_family ", reply_markup=reply_markup)
+        await message.reply("📌 ѕтєρѕ\n\n1. ᴛᴀᴘ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ɴᴀᴍᴇᴅ <b>' 🎬 ᴄʟɪᴄᴋ ᴛᴏ sᴇᴀʀᴄʜ мσνιє σя тν ѕєяιєѕ '</b>\n2. ᴛʜᴇɴ ᴛʏᴘᴇ ғɪʟᴍ ᴏʀ ᴛᴠ sᴇʀɪᴇs ɴᴀᴍᴇ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛᴇᴅ ᴛᴏ sᴇᴀʀᴄʜ \n3. sᴇʟᴇᴄᴛ ʏᴏᴜʀ ᴍᴇᴅɪᴀ ғɪʟᴇ (ᴀᴍᴏɴɢ ᴠᴀʀɪᴏᴜs ғᴏʀᴍᴀᴛs) & ᴅᴏᴡɴʟɪᴀᴅ ɪᴛ\n\n 😜<b>ɪғ ʏᴏᴜ ᴅᴏɴ'ᴛ ᴋɴᴏᴡ ᴛʜᴀᴛ sʏsᴛᴇᴍ ,ᴊᴜsᴛ ᴛʏᴘᴇ ᴛʜᴇ ɴᴀᴍᴇ ᴏғ ᴛʜᴇ ᴍᴏᴠɪᴇ<b> \n\n❔ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴀ ʜᴇʟᴘ , ᴛᴀᴘ' 📕 ᴛᴜᴛᴏʀɪᴀʟ ᴠɪᴅᴇᴏ ' ʙᴜᴛᴛᴏɴ ᴛᴏ ʀᴇsᴏʟᴠᴇ ʏᴏᴜ ɪssᴜᴇ\n\n🔅 𝐈𝐟 𝐭𝐡𝐞𝐫𝐞 𝐰𝐚𝐬𝐧'𝐭 𝐲𝐨𝐮𝐫 𝐟𝐢𝐥𝐦 𝐨𝐫 𝐓𝐕 𝐬𝐞𝐫𝐢𝐞𝐬 𝐉𝐮𝐬𝐭 𝐭𝐲𝐩𝐞 𝐚𝐬 𝐚 𝐧𝐨𝐫𝐦𝐚𝐥 𝐜𝐡𝐚𝐭 𝐰𝐞 𝐰𝐢𝐥𝐥 𝐮𝐩𝐥𝐨𝐚𝐝 𝐢𝐭 𝐚𝐬 𝐬𝐨𝐨𝐧 𝐚𝐬 𝐩𝐨𝐬𝐬𝐢𝐛𝐥𝐞\n\n<a href='https://t.me/sub_searcher_bot'>🤖</a> | © ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ @cinehub_family ", reply_markup=reply_markup)
 
 @Client.on_message(filters.command('info'))
 async def info(bot, message):
     msg = await message.reply("😎 ᴅᴏ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴋɴᴏᴡ ᴍᴏᴠɪᴇs & ᴛᴠ sᴇʀɪᴇs sᴛᴏʀʏ ʟɪɴᴇ , ᴀᴄᴛᴏʀs , ʀᴇʟᴇsᴇ ᴅᴀᴛᴇ , .. .\n\n ᴡᴇ ʜᴀᴠᴇ ᴀʀʀᴀɴɢᴇ ɪᴛ ғᴏʀ ʏᴏᴜ ❕ \n\n🔥ᴊᴜsᴛ ᴛʏᴘᴇ ᴀs **/imdb <code>movie or TV series</code>** \n\nσρтιση ѕυρρσят ву : @imdb", quote=True)
     msg = await message.reply("🗂")  
 
-@Client.on_message(filters.command('movie_tvseries'))
+@Client.on_message(filters.command('sinhala_sub'))
 async def play(bot, message):
-    msg = await message.reply("🍿 **Movie | Series time**\n\n\n🎬 ඔන්න ඉතින් ඔයලගෙ පහසුවට අපි ᴍᴏᴠɪᴇ | ᴛᴠ sᴇʀɪᴇs බොට් කෙනෙක්වත් හදලා තියෙනවා \n\nකරන්න තියෙන්නෙ මේ උපසිරැසි බොට්ව ඔයා පවිච්චි කරපු විදියටම ᴍᴏᴠɪᴇ එකේ හෝ sᴇʀɪᴇs එකේ Name එක English වලින් type කරන එකයි \n\n\n⚡ **ᴍᴏᴠɪᴇ | sᴇʀɪᴇs ʙᴏᴛ; @media_searcher_bot** \n\n\n<a href='https://t.me/media_searcher_bot'>🤖</a> | Powered By; © <a href='https://t.me/cinehub_family'>🄲🄸🄽🄴🄷🅄🄱</a>", quote=True)
+    msg = await message.reply("🍿 **Movie | Series time**\n\n\n🎬 ඔන්න ඉතින් ඔයලගෙ පහසුවට අපි සිංහල උපසිරැසි බොට් කෙනෙක්වත් හදලා තියෙනවා \n\nකරන්න තියෙන්නෙ මේ мσνιє | тν ѕєяιєѕ බොට්ව ඔයා පවිච්චි කරපු විදියටම ᴍᴏᴠɪᴇ එකේ හෝ sᴇʀɪᴇs එකේ Name එක English වලින් type කරන එකයි \n\n\n⚡ **උපසිරැසි ʙᴏᴛ; @sub_searcher_bot** \n\n\n<a href='https://t.me/sub_searcher_bot'>🤖</a> | Powered By; © <a href='https://t.me/cinehub_family'>🄲🄸🄽🄴🄷🅄🄱</a>", quote=True)
     msg = await message.reply("😇")
 
 @Client.on_message(filters.command('total') & filters.user(ADMINS))
