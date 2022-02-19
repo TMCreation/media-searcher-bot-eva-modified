@@ -94,9 +94,9 @@ def get_reply_markup(query):
         InlineKeyboardButton('🔎 sᴇᴀʀᴄʜ ᴀɢᴀɪɴ', switch_inline_query_current_chat=query),
         InlineKeyboardButton('🔄 sʜᴀʀᴇ ʙᴏᴛ', url="https://telegram.me/share/url?url=https://t.me/sub_searcher_bot"),
     ],[
-        InlineKeyboardButton('🍿 ᴄʟɪᴄᴋ ᴛᴏ sᴇᴀʀᴄʜ мσνιє σя тν ѕєяιєѕ', url='https://t.me/media_searcher_bot'),
+        InlineKeyboardButton('💬 ᴄʟɪᴄᴋ ᴛᴏ sᴇᴀʀᴄʜ සිංහල උපසිරැසි', url='https://t.me/media_searcher_bot'),
     ],[
-        InlineKeyboardButton('🎬 ᴄʟɪᴄᴋ ᴛᴏ sᴇᴀʀᴄʜ සිංහල උපසිරැසි ', switch_inline_query_current_chat=''),
+        InlineKeyboardButton('🎬 ᴄʟɪᴄᴋ ᴛᴏ sᴇᴀʀᴄʜ мσνιє σя тν ѕєяιєѕ', switch_inline_query_current_chat=''),
         ]
         ]
     return InlineKeyboardMarkup(buttons)
