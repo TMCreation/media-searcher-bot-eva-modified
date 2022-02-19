@@ -418,10 +418,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('« ᴀᴜᴛᴏ ғɪʟᴛᴇʀ  »', callback_data='autofilter')
             ],[
             InlineKeyboardButton('🔀 ᴄᴏɴɴᴇᴄᴛɪᴏɴ', callback_data='coct'),
-            InlineKeyboardButton('📦 ᴇxᴛʀᴀ ᴍᴏᴅs ', callback_data='extra')
-            ],[
-            InlineKeyboardButton('🏠 Mαιη Mєηυ', callback_data='start'),
+            InlineKeyboardButton('📦 ᴇxᴛʀᴀ ᴍᴏᴅs ', callback_data='extra'),
             InlineKeyboardButton('📃 sᴛᴀᴛᴜs', callback_data='stats')
+            ],[
+            InlineKeyboardButton('🏠 Mαιη Mєηυ', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -507,7 +507,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "admin":
         buttons = [[
-            InlineKeyboardButton('👩‍🦯 Back', callback_data='extra')
+            InlineKeyboardButton('🔙🦯 Back', callback_data='extra')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
