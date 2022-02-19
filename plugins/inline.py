@@ -92,9 +92,7 @@ def get_reply_markup(query):
     buttons = [
         [
         InlineKeyboardButton('🔎 sᴇᴀʀᴄʜ ᴀɢᴀɪɴ', switch_inline_query_current_chat=query),
-        InlineKeyboardButton('🔄 sʜᴀʀᴇ ʙᴏᴛ', url="https://telegram.me/share/url?url=https://t.me/sub_searcher_bot"),
-    ],[
-        InlineKeyboardButton('💬 ᴄʟɪᴄᴋ ᴛᴏ sᴇᴀʀᴄʜ සිංහල උපසිරැසි', url='https://t.me/media_searcher_bot'),
+        InlineKeyboardButton('💬 සිංහල උපසිරැසි', url='https://t.me/sub_searcher_bot'),
     ],[
         InlineKeyboardButton('🎬 ᴄʟɪᴄᴋ ᴛᴏ sᴇᴀʀᴄʜ мσνιє σя тν ѕєяιєѕ', switch_inline_query_current_chat=''),
         ]
