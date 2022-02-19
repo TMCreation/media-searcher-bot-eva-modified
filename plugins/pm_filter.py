@@ -28,11 +28,11 @@ SPELL_CHECK = {}
 
 
 
-@Client.on_message(filters.group & filters.private & filters.text & ~filters.edited & filters.incoming & filters.user(AUTH_USERS) if AUTH_USERS else filters.text & filters.private & filters.incoming)
-async def give_filter(client,message):
+@Client.on_message(filters.group & filters.text & ~filters.edited & filters.incoming)
+async def give_filter(client, message):
     k = await manual_filters(client, message)
     if k == False:
-        await auto_filter(client, message)   
+        await auto_filter(client, message)  
 
 @Client.on_callback_query(filters.regex(r"^next"))
 async def next_page(bot, query):
@@ -359,7 +359,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     file_id=file_id,
                     caption=f_caption
                     )
-                await query.answer('😇 මෙන්න ඔයා හොයපු සිංහල උපසිරැසිය  ©CINEHUB ',show_alert = False)
+                await query.answer('😇 මෙන්න ඔයා හොයපු ғɪʟᴍ | ᴛᴠ sᴇʀɪᴇs එක  ©CINEHUB ',show_alert = False)
         except UserIsBlocked:
             await query.answer('Unblock the bot mahn !',show_alert = True)
         except PeerIdInvalid:
@@ -404,7 +404,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('💡 ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('📕 ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
-            InlineKeyboardButton('🎬 ᴄʟɪᴄᴋ ᴛᴏ sᴇᴀʀᴄʜ සිංහල උපසිරැසි', switch_inline_query_current_chat='')
+            InlineKeyboardButton('🎬 ᴄʟɪᴄᴋ ᴛᴏ sᴇᴀʀᴄʜ ғɪʟᴍ | ᴛᴠ sᴇʀɪᴇs', switch_inline_query_current_chat='')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -431,7 +431,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('🅢🅗🅐🅡🅔', url='https://telegram.me/share/url?url=https://t.me/sub_searcher_bot'),
+            InlineKeyboardButton('🅢🅗🅐🅡🅔', url='https://telegram.me/share/url?url=https://t.me/media_searcher_bot'),
             InlineKeyboardButton('🔑 Source', callback_data='source')
             ],[
             InlineKeyboardButton('🏠 Mαιη Mєηυ', callback_data='start'),
