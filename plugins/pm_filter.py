@@ -431,7 +431,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('🅢🅗🅐🅡🅔', url='https://telegram.me/share/url?url=https://t.me/media_searcher_bot'),
+            InlineKeyboardButton('🅢🅗🅐🅡🅔', url='https://telegram.me/share/url?url=https://t.me/cinehub_family'),
             InlineKeyboardButton('🔑 Source', callback_data='source')
             ],[
             InlineKeyboardButton('🏠 Mαιη Mєηυ', callback_data='start'),
