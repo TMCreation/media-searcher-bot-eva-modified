@@ -66,16 +66,16 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🤖 Join Updates Channel", url=invite_link.invite_link
+                    " Join 🄲🄸🄽🄴🄷🅄🄱 ƒαмιℓу ™ Channel", url=invite_link.invite_link
                 )
             ]
         ]
 
         if message.command[1] != "subscribe":
-            btn.append([InlineKeyboardButton(" 🔄 Try Again", callback_data=f"checksub#{message.command[1]}")])
+            btn.append([InlineKeyboardButton(" 🔄 නැවත උත්සහ කරන්න", callback_data=f"checksub#{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**",
+            text="**මුලින්ම ඔයා අපේ 🄲🄸🄽🄴🄷🅄🄱 ƒαмιℓу ™ Channel එකට join වෙලා ඉන්න \n\nඊට පස්සෙ නැවත උත්සහ කරන්න 😋!**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode="markdown"
             )
