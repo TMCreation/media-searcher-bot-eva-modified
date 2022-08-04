@@ -100,6 +100,10 @@ async def next_page(bot, query):
                 InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
         )
+    btn.insert(0,
+            [
+                InlineKeyboardButton("🄲🄸🄽🄴🄷🅄🄱 ƒαмιℓу ™", url="https://t.me/cinehub_family")
+            ])
     try:
         await query.edit_message_reply_markup( 
             reply_markup=InlineKeyboardMarkup(btn)
