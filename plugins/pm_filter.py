@@ -98,8 +98,6 @@ async def next_page(bot, query):
                 InlineKeyboardButton("⏪ BACK", callback_data=f"next_{req}_{key}_{off_set}"),
                 InlineKeyboardButton(f"🗓 {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages"),
                 InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{req}_{key}_{n_offset}")
-            ],[
-               InlineKeyboardButton("《《 © 🄲🄸🄽🄴🄷🅄🄱 coммυɴιтy 》》", url="https://t.me/cinehub_family")
             ],
         )
     try:
@@ -109,7 +107,6 @@ async def next_page(bot, query):
     except MessageNotModified:
         pass
     await query.answer()
-
 
 @Client.on_callback_query(filters.regex(r"^spolling"))
 async def advantage_spoll_choker(bot, query):
